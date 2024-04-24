@@ -11,3 +11,6 @@ tailwindBuild.css
 /server/js/**
 /client/js/**
 index.js
+
+# assets to be processed
+raw_assets
