@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.server.json",
+    "compilerOptions": {
+        "outDir": ""
+    },
+    "files": ["server/ts/index.ts"]
+}

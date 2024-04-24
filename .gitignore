@@ -10,3 +10,4 @@ tailwindBuild.css
 # js builds
 /server/js/**
 /client/js/**
+index.js

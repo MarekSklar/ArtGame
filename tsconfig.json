@@ -2,11 +2,10 @@
     "compilerOptions": {
         "module": "CommonJS",
         "target": "ES2022",
-        "sourceMap": true,
         "outDir": "src/js/server",
         "moduleDetection": "force",
         "esModuleInterop": true,
         "moduleResolution":"node"
     },
-    "exclude": ["nodemodules"]
+    "exclude": ["node_modules"]
 }

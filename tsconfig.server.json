@@ -5,5 +5,5 @@
         "outDir": "server/js"
     },
     "include": ["server/ts/**/*"],
-    "exclude": ["client/ts/**/*"]
+    "exclude": ["client/ts/**/*", "server/ts/index.ts"]
 }
