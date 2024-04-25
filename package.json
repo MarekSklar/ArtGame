@@ -3,10 +3,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "setup": "npm run build && npm run style-o",
     "dev": "electron .",
-    "build": "tsc -p tsconfig.server.json && tsc -p tsconfig.client.json && tsc -p tsconfig.main.json",
     "dev-b": "npm run build && npm run dev",
-    "style": "npx tailwindcss -i ./client/css/tailwind.css -o ./client/css/tailwindBuild.css --watch"
+    "dev-fb": "npm run build && npm run style-o && npm run dev",
+    "build": "tsc -p tsconfig.server.json && tsc -p tsconfig.client.json && tsc -p tsconfig.main.json",
+    "style": "npx tailwindcss -i ./client/css/tailwind.css -o ./client/css/tailwindBuild.css --watch",
+    "style-o": "npx tailwindcss -i ./client/css/tailwind.css -o ./client/css/tailwindBuild.css"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",

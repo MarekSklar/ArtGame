@@ -3,5 +3,6 @@
     "compilerOptions": {
         "outDir": ""
     },
-    "files": ["server/ts/index.ts"]
+    "files": ["server/ts/index.ts"],
+    "exclude": ["client/ts/**/*", "server/ts/**/*"]
 }
